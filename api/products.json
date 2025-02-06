@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "category": "laptops",
+        "image": "../public/images/macbookpro.png",
+        "name": "macbook pro",
+        "rating": 4,
+        "price": 1580,
+        "oldPrice": 1600,
+        "stock": 160,
+        "brand": "apple",
+        "description": "m4-pro processor, 16bg ram, 512 rom, 14-inch liquid retina XDR, 96w charging."
+    },
+    {
+        "id": 2,
+        "category": "mobiles",
+        "image": "../public/images/iphone16.png",
+        "name": "iphone 16",
+        "rating": 5,
+        "price": 750,
+        "oldPrice": 800,
+        "stock": 200,
+        "brand": "apple",
+        "description": "a18 processor, ios 16, 64gb rom, 6.1-inch super retina XDR, 25w charging."
+    },
+    {
+        "id": 3,
+        "category": "headphones",
+        "image": "../public/images/airpodmax.png",
+        "name": "airpods max",
+        "rating": 2,
+        "price": 535,
+        "oldPrice": 550,
+        "stock": 50,
+        "brand": "apple",
+        "description": "ANC, transparency mode, adaptive EQ, bluetooth 5.0, usb-c charging."
+    },
+    {
+        "id": 4,
+        "category": "tablets",
+        "image": "../public/images/ipadpro.png",
+        "name": "ipad pro",
+        "rating": 5,
+        "price": 1445,
+        "oldPrice": 1500,
+        "stock": 120,
+        "brand": "apple",
+        "description": "m4 processor, 16gb ram, 128gb rom, 13-inch ultra retina XDR 120Hz, 20w charging."
+    },
+    {
+        "id": 5,
+        "category": "displays",
+        "image": "../public/images/studiodisplay.png",
+        "name": "studio display",
+        "rating": 1,
+        "price": 1530,
+        "oldPrice": 1600,
+        "stock": 30,
+        "brand": "apple",
+        "description": "27-inch 5K Retina display, camera and audio, 600 nits brightness."
+    },
+    {
+        "id": 6,
+        "category": "computers",
+        "image": "../public/images/macmini.png",
+        "name": "mac mini",
+        "rating": 4,
+        "price": 525,
+        "oldPrice": 600,
+        "stock": 80,
+        "brand": "apple",
+        "description": "m4 processor, 16gb ram, 256gb rom."
+    },
+    {
+        "id": 7,
+        "category": "consoles",
+        "image": "../public/images/ps5.png",
+        "name": "play station 5",
+        "rating": 5,
+        "price": 460,
+        "oldPrice": 500,
+        "stock": 190,
+        "brand": "sony",
+        "description": "adaptive triggers, haptic feedback, ray tracing, 4k 120Hz, blu-ray disc."
+    },
+    {
+        "id": 8,
+        "category": "smart watchs",
+        "image": "../public/images/watchultra2.png",
+        "name": "watch ultra 2",
+        "rating": 2,
+        "price": 720,
+        "oldPrice": 800,
+        "stock": 70,
+        "brand": "apple",
+        "description": "heart sensor, Temperature sensor, 64gb rom, Always-On Retina LTPO2 OLED."
+    },
+    {
+        "id": 9,
+        "category": "VR",
+        "image": "../public/images/metaquest3.png",
+        "name": "meta quest 3",
+        "rating": 3,
+        "price": 480,
+        "oldPrice": 500,
+        "stock": 110,
+        "brand": "meta",
+        "description": " Snapdragon XR2 Gen 2 CPU, 8gb ram, 512gb rom, 4k 120Hz, 18w charging."
+    }
+]

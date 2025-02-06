@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- start nav section -->
+  <header>
+    <div class="sign-in-section">
+      
+      <div class="container">
+
+        <p class="sign-in-txt">Free shipping. 30-days return or refund guarantee.</p>
+        <ul class="sign-in-bar">
+          <li><a href="./contact.html" class="sign-in-item sign-in">sign in</a></li>
+          <li><a href="./contact.html" class="sign-in-item sign-up">sign up</a></li>
+        </ul>
+          
+      </div>
+    </div>
+
+    <div class="nav-section">
+      <div class="container">
+        
+        <div class="site-logo">
+          <span class="logo-png">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48">
+              <path fill="#f9ada0" d="M37,36H17c-2.761,0-5-2.239-5-5V11c0-2.761,2.239-5,5-5h20c2.761,0,5,2.239,5,5v20 C42,33.761,39.761,36,37,36z M21,30h14V18.5c0-3.038-2.462-5.5-5.5-5.5H18v14C18,28.657,19.343,30,21,30z"></path>
+              <path fill="#83B692" d="M31,42H11c-2.761,0-5-2.239-5-5V17c0-2.761,2.239-5,5-5h20c2.761,0,5,2.239,5,5v20 C36,39.761,33.761,42,31,42z M17.5,36H30V21c0-1.657-1.343-3-3-3H15c-1.657,0-3,1.343-3,3v9.5C12,33.538,14.462,36,17.5,36z"></path>
+              <path fill="#f9ada0" d="M36,26v1c0,1.657-1.343,3-3,3H23v6h14c2.75,0,5-2.25,5-5v-5H36z"></path>
+            </svg>
+          </span>
+          <span class="logo-first-name">ecom</span>
+          <span class="logo-last-name">store</span>
+        </div>
+
+        <nav class="navbar">
+          <ul>
+              <li class="nav-item">
+                  <a class="nav-link" href="./index.html">home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">about</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="products.html">products</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact</a>
+              </li>
+              <li>
+                  <a href="./cart.html">
+                    <button class="btn nav-cart">
+                      <i class="fa-solid fa-cart-shopping"></i> 
+                      <span class="nav-cart-text">0</span>
+                    </button>
+                  </a>
+              </li>
+          </ul>
+        </nav>
+      
+      </div>
+    </div>
+  </header>
+  <!-- end nav section -->
+
+
+  <!-- start contact page section -->
+  <section class="contact-page-section">
+    
+    <div class="container">     
+      <h2 class="section-common-heading">contact us</h2>
+
+      <div class="section-common-subheading">
+        Get in touch with us. We are always here to help you :)
+      </div>
+    </div>
+
+    <div class="container grid grid-two-cols">
+
+      <form class="contact-form-div" action="https://formspree.io/f/manwreal" method="POST">
+        
+        <div class="upper-fields-div">
+          <div class="name-div form-div">
+            <label for="fullname">full name:</label>
+            <input type="text" id="fullname" name="fullname" autocomplete="off" 
+              placeholder="Enter full name" />      
+          </div>
+    
+          <div class="email-div form-div">
+            <label for="email">email address:</label>
+            <input type="email" id="email" name="email" autocomplete="off" required 
+            placeholder="abc@gmail.com" />
+          </div>
+        </div>
+
+        <div class="subject-div form-div">
+          <label for="subject">subject:</label>
+          <input type="text" id="subject" name="subject" list="subjects" autocomplete="off" 
+            placeholder="Choose any subject" />
+
+          <datalist name="subjects" id="subjects">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JS"></option>				
+            <option value="PYTHON"></option>				
+            <option value="JAVA"></option>				
+            <option value="SQL"></option>				
+            <option value="MONGODB"></option>				
+          </datalist>
+        </div>
+
+        <div class="massage-div form-div">
+          <label for="massage">massage:</label>
+          <textarea name="massage" id="massage" name="massage" autocomplete="off" 
+            placeholder="Write your comments here">
+          </textarea>
+        </div>
+
+        <button class="form-btn btn" type="submit" name="submit" value="submit">
+          submit <i class="fa-solid fa-paper-plane"></i>
+        </button>
+        
+      </form>
+
+      <div class="contact-map-div">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8103.661173922883!2d-1.2545179!3d51.7570429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e1!3m2!1sen!2s!4v1727456845765!5m2!1sen!2s"  
+        style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+
+  </section>     
+  <!-- end contact page section -->
+
+
+  <!-- start footer section -->
+  <footer class="footer-section">
+
+    <div class="container flex-container">
+
+      <div class="footer-div footer-payment-div">
+        <div class="site-logo footer-heading">
+          <span class="logo-png">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48">
+              <path fill="#f9ada0" d="M37,36H17c-2.761,0-5-2.239-5-5V11c0-2.761,2.239-5,5-5h20c2.761,0,5,2.239,5,5v20 C42,33.761,39.761,36,37,36z M21,30h14V18.5c0-3.038-2.462-5.5-5.5-5.5H18v14C18,28.657,19.343,30,21,30z"></path>
+              <path fill="#83B692" d="M31,42H11c-2.761,0-5-2.239-5-5V17c0-2.761,2.239-5,5-5h20c2.761,0,5,2.239,5,5v20 C36,39.761,33.761,42,31,42z M17.5,36H30V21c0-1.657-1.343-3-3-3H15c-1.657,0-3,1.343-3,3v9.5C12,33.538,14.462,36,17.5,36z"></path>
+              <path fill="#f9ada0" d="M36,26v1c0,1.657-1.343,3-3,3H23v6h14c2.75,0,5-2.25,5-5v-5H36z"></path>
+            </svg>
+          </span>
+          <span class="logo-first-name">ecom</span>
+          <span class="logo-last-name">store</span>
+        </div>
+        <p class="footer-txt">
+          Welcome to Ecom Store. Your destination for cutting-edge gadgets!
+        </p>
+        <div class="payment-cards-div">
+          <img src="./public/images/paypalcard.png" alt="paypal card icon" class="payment-cards-icon">
+          <img src="./public/images/mastercard.png" alt="master card icon" class="payment-cards-icon">
+          <img src="./public/images/visacard.png" alt="visa card icon" class="payment-cards-icon">
+        </div>
+      </div>
+
+      <div class="footer-div footer-experience-div">
+        <p class="footer-heading">experience</p>
+        <ul class="footer-list">
+          <li><a href="/" class="footer-link">sales & discounts</a></li>
+          <li><a href="/" class="footer-link">payment method</a></li>
+          <li><a href="/" class="footer-link">delivery</a></li>
+          <li><a href="/" class="footer-link">return & exchange</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-div footer-contactus-div">
+        <p class="footer-heading">contact us</p>
+        <ul>
+          <li><a href="/" class="footer-link">massage</a></li>
+          <li><a href="/" class="footer-link">email</a></li>
+          <li><a href="/" class="footer-link">facebook</a></li>
+          <li><a href="/" class="footer-link">whatsapp</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-div footer-newslatter-div">
+        <p class="footer-heading">news latter</p>
+        <p class="footer-txt">
+          Subscribe for getting update from latest and greatest Deals & Discount. Truly for you! 
+        </p>
+        <input type="email" class="input footer-input" 
+        placeholder="Enter your email." />
+        <button class="btn footer-btn">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="footer-copyrights">
+      design and develop by kashan ali &copy;
+    </div>
+
+  </footer>
+  <!-- end footer section -->
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
